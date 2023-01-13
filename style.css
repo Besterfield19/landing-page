@@ -14,3 +14,12 @@ body {
      wrap: nowrap;
      justify-content: space-between;
 }
+
+li {
+     display: inline;
+     padding: 15px;
+}
+
+a {
+     text-decoration: none;
+}
