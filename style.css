@@ -19,8 +19,10 @@ body {
 li {
      display: inline;
      padding: 15px;
+     font-size: 18px;
 }
 
 a {
      text-decoration: none;
+     color: #e5e7eb;
 }
