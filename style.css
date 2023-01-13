@@ -3,7 +3,16 @@ body {
      margin: 0 auto;
 }
 
+.heroimg {
+     box-sizing: border-box;
+     height: 100px;
+     width: 100px;
+     padding: 15px;
+}
+
 #content {
+     display: flex;
+     flex-flow: wrap;
      overflow: auto;
      background-color: #1f2937;
      width: 100%;
@@ -21,6 +30,7 @@ body {
      font-size: 24px;
      padding: 15px;
 }
+
 
 li {
      display: inline;
