@@ -7,7 +7,7 @@ body {
      box-sizing: border-box;
      height: 100px;
      width: 100px;
-     padding: 15px;
+     margin-right: 15px;
 }
 
 button {
@@ -17,7 +17,8 @@ button {
 
 #content {
      display: flex;
-     justify-content: space-around;
+     justify-content: center;
+     align-items: center;
      flex-flow: row;
      overflow: auto;
      background-color: #1f2937;
