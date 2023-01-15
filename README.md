@@ -1,2 +1,2 @@
 # landing-page
-The culmination of all the lessons I've taken so far!  This is...my first web page.  
+The culmination of all the TOP lessons so far!  This webpage has images, it's got some basic alignment.  It's got minimal in-line styling; most of it is styled using external CSS. This code uses divs and spans!  I also gave the images a bit more emphasis on the page and tweaked the color scheme to be sort of earthy, keeping the navy blues but replacing some of the white space and basic bright blues with a dark olive green.      
