@@ -5,7 +5,7 @@ body {
 
 
 button {
-     background-color: #3882f6;
+     background-color: slategrey;
      color: #f9faf8;
      border-radius: 5px;
      font-size: 24px;
@@ -53,16 +53,18 @@ li {
      font-size: 18px;
 }
 
+.attribution {
+     font-size: 24px;
+     font-weight: bold;
+     text-align: right;
+     padding: 15px;
+}
+
 .caption {
      display: inline-block;
      text-align: center;
      padding: 15px;
      word-wrap: break-word;
-}
-
-.column4 {
-     flex-shrink: 0;
-     flex-basis: auto;
 }
 
 .column1, .column2, .column3, .column4 {
@@ -96,6 +98,14 @@ li {
      padding: 15px 40px 15px 20px;
 }
 
+.quote {
+     font-size: 36px;
+     font-weight: light;
+     font-style: italic;
+     padding: 50px;
+     margin: 20px;
+}
+
 #content {
      display: flex;
      justify-content: center;
@@ -118,4 +128,14 @@ li {
      flex-direction: row;
      word-wrap: normal;
      text-align: center;
+     flex-shrink: 0;
+}
+
+#quotation {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     word-wrap: break-word;
+     background-color: #e5e7eb;
+     color: #1f2937;
 }
